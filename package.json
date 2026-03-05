@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Deno REST API with CI/CD",
   "scripts": {
+    "start": "deno run --allow-net --watch main.ts",
     "prepare": "husky",
     "test": "deno test"
   },

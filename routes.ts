@@ -32,4 +32,9 @@ router.get("/hello/:name", (ctx) => {
   };
 });
 
+router.get("/data", (ctx) => {
+  ctx.response.body = {
+    message: "Super",
+  };
+});
 export default router;

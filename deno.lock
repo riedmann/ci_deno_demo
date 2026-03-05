@@ -11,6 +11,7 @@
     "jsr:@std/internal@^1.0.12": "1.0.12",
     "jsr:@std/media-types@1": "1.1.0",
     "jsr:@std/path@1": "1.1.4",
+    "npm:husky@^9.0.11": "9.1.7",
     "npm:path-to-regexp@^6.3.0": "6.3.0"
   },
   "jsr": {
@@ -57,6 +58,10 @@
     }
   },
   "npm": {
+    "husky@9.1.7": {
+      "integrity": "sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==",
+      "bin": true
+    },
     "path-to-regexp@6.3.0": {
       "integrity": "sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ=="
     }
