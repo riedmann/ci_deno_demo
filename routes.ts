@@ -34,7 +34,7 @@ router.get("/hello/:name", (ctx) => {
 
 router.get("/data", (ctx) => {
   ctx.response.body = {
-    message: "Super",
+    message: "Super Duper Dummy Data",
   };
 });
 export default router;
