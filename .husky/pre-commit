@@ -1,0 +1,8 @@
+echo "🔍 Running pre-commit checks..."
+echo "📝 Checking formatting..."
+deno fmt --check
+
+echo "✅ Running tests..."
+deno test
+
+echo "✨ All checks passed!"

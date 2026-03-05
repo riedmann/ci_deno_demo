@@ -1,0 +1,12 @@
+{
+  "name": "deno-rest-lab",
+  "version": "1.0.0",
+  "description": "Deno REST API with CI/CD",
+  "scripts": {
+    "prepare": "husky",
+    "test": "deno test"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11"
+  }
+}

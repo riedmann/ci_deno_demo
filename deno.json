@@ -1,6 +1,9 @@
 {
   "tasks": {
     "start": "deno run --allow-net main.ts",
-    "test": "deno test"
+    "test": "deno test",
+    "fmt": "deno fmt",
+    "fmt:check": "deno fmt --check",
+    "lint": "deno lint"
   }
 }
